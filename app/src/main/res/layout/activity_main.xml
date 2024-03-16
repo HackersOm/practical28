@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="UserName"
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/txtview1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/txtview2"
+        android:layout_below="@id/txtview1"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_toRightOf="@id/txtview1"
+        android:layout_marginTop="190dp"
+        android:minHeight="48dp"
+        android:hint="Enter user Name"
+        android:id="@+id/edt1"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_toRightOf="@id/txtview2"
+        android:layout_below="@id/edt1"
+        android:layout_marginTop="60dp"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+        android:hint="Enter Password"
+        android:id="@+id/edt2"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="login"
+        android:id="@+id/btn1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btn2"
+        android:text="Sign In"
+        />
+
+
+</RelativeLayout>
